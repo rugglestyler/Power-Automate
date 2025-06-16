@@ -30,7 +30,7 @@ Each folder contains:
 
 ## 🚀 Example Projects
 
-- **NEO_Welcome_Email**: Automatically sends onboarding emails to new hires with embedded leadership profiles
+- **NEO_Welcome_Email**: Automatically sends onboarding emails to new hires with embedded user profiles
 - **(More coming soon)**
 
 ---
