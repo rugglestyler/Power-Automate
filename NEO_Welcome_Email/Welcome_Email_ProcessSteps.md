@@ -1,5 +1,5 @@
 
-# 📘 Project Description: NCH Bi-Weekly New Employee Orientation Email Automation
+# 📘 Project Description: New Employee Orientation Email Automation
 
 This document explains the steps taken to build a Power Automate flow that automates sending a personalized HTML welcome email to new hires at your desired Company, without including proprietary code or credentials.
 
