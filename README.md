@@ -1,39 +1,38 @@
-# 📨 Bi-Weekly New Employee Orientation Email Automation
+# ⚙️ Power Automate Projects
 
-This Power Automate flow automatically sends a detailed, personalized HTML welcome email to employees. It introduces the leadership team, shares the organization's mission and values, and enhances the onboarding experience with embedded images and personalization.
+This repository serves as a portfolio of my Power Automate (Microsoft Flow) projects.  
+Each folder contains an individual automation that showcases a real-world use case I've built and deployed.
+
+## 🎯 Purpose
+
+The purpose of this repository is to:
+
+- Document and organize my Power Automate work
+- Demonstrate my automation and integration skills
+- Provide examples of how I use Power Automate to solve business problems
+- Share ideas with others interested in automation workflows
+
+## 🧠 Technologies Used
+
+- Microsoft Power Automate (Cloud Flows)
+- SharePoint Online
+- Microsoft Graph API
+- Office 365 (Outlook, Excel)
+- Dynamic content & expressions
+- Scheduled & event-driven triggers
+
+## 📁 Repository Structure
+
+Each folder contains:
+- A redacted `.json` export of the flow
+- A project-specific `README.md` explaining the workflow
+- Notes on triggers, actions, and key logic
+
+## 🚀 Example Projects
+
+- **NEO_Welcome_Email**: Automatically sends onboarding emails to new hires with embedded leadership profiles
+- **(More coming soon)**
 
 ---
 
-## 📅 Trigger
-
-### **Recurrence**
-- This flow is scheduled to run **daily at 5:00 PM (EST)**.
-- It checks for new users created within the last 24 hours.
-
-
-## 🖼️ SharePoint Image Fetching
-
-The flow retrieves members photos from a SharePoint document library. Each image is fetched as Base64 and dynamically inserted into the email:
-
-| Action Name            | Purpose                                   |
-|------------------------|-------------------------------------------|
-| `Get Members Picture 1  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 2  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 3  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 4  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 5  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 6  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 7  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 8  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 9  | Retrieve Members Picture from Sharepoint |
-| `Get Members Picture 10 | Retrieve Members Picture from Sharepoint |
-
-Each image is pulled from the SharePoint path:  
-`/sites/[Redacted]/[Redacted]/[Image].png`
-
----
-
-## 📡 Data Source: Microsoft Graph API
-
-### **HTTP Request**
-- Pulls new users via Graph API:
+Feel free to explore and adapt these flows for your own automations.
